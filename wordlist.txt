@@ -1,0 +1,9 @@
+math
+spanish
+science
+house
+home
+logic
+rules
+herp
+derp

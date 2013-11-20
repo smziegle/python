@@ -1,0 +1,37 @@
+#lab5_7.py
+#Scott Ziegler
+#this will make a stick man
+from graphics import *
+def main():
+    win = GraphWin()
+    center = Point(100,50)
+    circ = Circle(center, 30)
+    circ.draw(win)
+    line = Line(Point(100,80),Point(100,160))
+    line2=Line(Point(100,160),Point(60,190))
+    line3=Line(Point(100,160),Point(140,190))
+    line4=Line(Point(100,130),Point(140,130))
+    line5=Line(Point(100,130),Point(60,130))
+    line2.draw(win)
+    line.draw(win)
+    line3.draw(win)
+    line4.draw(win)
+    line5.draw(win)
+    win.getMouse()
+    circ.move(0,-50)
+    line.move(0,-50)
+    line2.move(0,-50)
+    line3.move(0,-50)
+    line4.move(0,-50)
+    line5.move(0,-50)
+    win.getMouse()
+    circ.move(0,50)
+    line.move(0,50)
+    line2.move(0,50)
+    line3.move(0,50)
+    line4.move(0,50)
+    line5.move(0,50)
+    win.getMouse()
+    win.close()
+
+main()
